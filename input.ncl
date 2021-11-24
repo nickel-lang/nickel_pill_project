@@ -3,7 +3,7 @@
 
     },
     manualdef = {
-        host = "localhost",
+        host = "172.0.0.1",
         port = 8080,
     },
 }
