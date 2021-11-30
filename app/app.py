@@ -16,4 +16,4 @@ def run(cfg):
 
 
 if __name__ == "__main__":
-    run(configuration)
+    run(configuration["server"])

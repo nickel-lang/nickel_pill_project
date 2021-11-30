@@ -1,9 +1,10 @@
 {
-    nickelconf = {
+    meta = {
+        seclvl = `LOW_SECURITY,
+    },
 
-    },
-    manualdef = {
-        host = "172.0.0.1",
-        port = 8080,
-    },
+    override = {
+        application.name = "Je suis une truite",
+        server.port = 42666,
+    }
 }
