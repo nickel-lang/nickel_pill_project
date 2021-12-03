@@ -1,4 +1,4 @@
-# Nickel Dogfooding
+# Nickel Pill project
 This project is used to write Nickel pills, document Nickel features and test features in real-world conditions.
 
 # The project
@@ -6,8 +6,8 @@ A computing server that has a Web dashboard interface
 
 Simple Python Flask application that reads the configuration from the generated JSON file.
 
-# The configuration
-- Environment
+# Future ideas
+- Environment variables
 Set up environment variables from Flask application directly, reading from json
 ``` python3
 app.config['ENVIRONMENT_VAR'] = "var name here"
